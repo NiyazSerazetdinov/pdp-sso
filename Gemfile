@@ -40,6 +40,7 @@ gem "responders"
 gem "rollbar"
 gem "seedbank"
 gem "stackprof"
+gem "omniauth-facebook"
 
 group :staging, :production do
   gem "newrelic_rpm"

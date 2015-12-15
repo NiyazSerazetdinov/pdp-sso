@@ -2,3 +2,5 @@
   .columns
     h2
       = title("Home")
+
+  = link_to "Sign up with Facebook", user_omniauth_authorize_path(:facebook)
