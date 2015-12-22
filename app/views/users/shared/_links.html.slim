@@ -1,3 +1,9 @@
+h6 Sign up with
+= link_to "Facebook", user_omniauth_authorize_path(:facebook)
+h6 or
+= link_to "Vkontakte", user_omniauth_authorize_path(:vkontakte)
+
+
 h6 Anything else?
 ul.links
   - if controller_name != "sessions"
